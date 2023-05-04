@@ -2,6 +2,7 @@ version: '3.9'
 services:
   app:
     image: l12_traffic_watcher
+    build: .
     restart: always
     volumes:
       - ./work:/work
