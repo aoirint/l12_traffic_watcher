@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "l12-traffic-watcher"
+version = "0.1.0"
+description = ""
+authors = ["aoirint <aoirint@gmail.com>"]
+readme = "README.md"
+packages = [{include = "l12_traffic_watcher"}]
+
+[tool.poetry.dependencies]
+python = "~3.11"
+requests = "^2.30.0"
+beautifulsoup4 = "^4.12.2"
+html5lib = "^1.1"
+schedule = "^1.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
